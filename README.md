@@ -1,46 +1,45 @@
 # 🛍️ Chatbot Assistente de Compras com RAG (LangChain + Pinecone + Gemini)
 
-Este projeto demonstra como construir um robusto Chatbot Assistente de Compras com Inteligência Artificial, utilizando a técnica de RAG (Retrieval-Augmented Generation) — ideal para catálogos de produtos no varejo e e-commerce.
+Este projeto de Assistente de Compras com Inteligência Artificial, utilizando a técnica de RAG (Retrieval Augmented Generation) ideal para catálogos de produtos no varejo e e-commerce.
 
-Ao contrário de chatbots genéricos, este assistente é alimentado com os dados reais da sua loja, permitindo gerar respostas precisas, relevantes e personalizadas com base nas informações do seu próprio catálogo de produtos.
+O assistente é alimentado com os dados reais da loja, permitindo gerar respostas precisas, relevantes e personalizadas com base nas informações do próprio catálogo de produtos.
 
+
+---
+
+## 💡 O que está acontecendo
+
+- Implementação de um pipeline RAG (Retrieval-Augmented Generation) em nível profissional
+- Importação e indexação de dados de produtos a partir de um banco MySQL para o Pinecone
+- Utilização do LangChain com o Google Gemini 1.5 Flash para geração de respostas contextuais e precisas
+- Interface de chatbot interativa desenvolvida com Streamlit
 
 ---
 
-## 💡 O que você vai aprender
-
-- Como construir um pipeline RAG profissional
-- Como importar dados de produtos do MySQL e indexá-los no Pinecone
-- Como usar o LangChain com o Google Gemini 1.5 Flash para gerar respostas contextuais
-- Como criar uma interface de chatbot com o Streamlit
-
----
 
 ## 📁 Tecnologias Utilizadas
 
-| Ferramenta        | Finalidade                                |
-|--------------------|--------------------------------------------|
-| **MySQL**          | Base de dados com informações dos produtos |
-| **Pinecone**       | Armazenamento vetorial (vector store)      |
-| **LangChain**      | Orquestração do pipeline RAG               |
-| **Google Gemini**  | Modelo de linguagem (LLM) da Google        |
-| **Streamlit**      | Interface web do chatbot                   |
+| Ferramenta                  | Finalidade Técnica                                                                                               |
+| --------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| **MySQL**                   | Sistema de gerenciamento de banco de dados relacional para armazenar os dados estruturados dos produtos          |
+| **Pinecone**                | Vector store para indexação e recuperação eficiente de embeddings semânticos                                     |
+| **LangChain**               | Framework para construção e orquestração de pipelines RAG (Retrieval-Augmented Generation)                       |
+| **Google Gemini 1.5 Flash** | Large Language Model (LLM) utilizado para geração de respostas contextuais com alta performance                  |
+| **Streamlit**               | Framework para desenvolvimento rápido de interfaces web interativas, utilizado na criação do frontend do chatbot |
+
+---
+
+Claro! Aqui está uma versão mais técnica e precisa da seção de funcionalidades:
 
 ---
 
 ## 🚀 Funcionalidades
 
-- 🔍 Geração aumentada por recuperação (RAG) para perguntas sobre produtos
-- 🛒 Integração com banco de dados MySQL da sua loja
-- 📚 Criação de embeddings e busca vetorial com Pinecone
-- 💬 Interface de chatbot em tempo real com Streamlit
-- ⚡ Respostas rápidas e inteligentes com Gemini 1.5 Flash
+* 🔍 **RAG (Retrieval-Augmented Generation)**: Implementação de geração de respostas baseada em recuperação de contexto, com foco em informações de produtos
+* 🛒 **Integração com MySQL**: Conexão direta com o banco de dados relacional da loja para extração e sincronização de dados estruturados
+* 📚 **Embeddings e Busca Vetorial**: Geração de embeddings semânticos e indexação no Pinecone para recuperação vetorial eficiente
+* 💬 **Interface de Chat em Tempo Real**: Frontend responsivo desenvolvido com Streamlit, permitindo interação fluida com o usuário
+* ⚡ **LLM Gemini 1.5 Flash**: Utilização do modelo da Google para inferência rápida e geração de respostas contextuais e precisas
 
 ---
 
-## ⚙️ Como executar
-
-1. **Clone o repositório**  
-   ```bash
-   git clone https://github.com/seu-usuario/chatbot-assistente-compras.git
-   cd chatbot-assistente-compras
