@@ -1,10 +1,9 @@
 # 🛍️ Chatbot Assistente de Compras com RAG (LangChain + Pinecone + Gemini)
 
-Este projeto mostra como construir um **poderoso Chatbot Assistente de Compras com IA**, utilizando **RAG (Retrieval-Augmented Generation)** — focado especialmente em **catálogos de produtos para e-commerce e varejo**.
+Este projeto demonstra como construir um robusto Chatbot Assistente de Compras com Inteligência Artificial, utilizando a técnica de RAG (Retrieval-Augmented Generation) — ideal para catálogos de produtos no varejo e e-commerce.
 
-Diferente de chatbots genéricos, este é treinado com os **dados reais da sua loja**, permitindo respostas **contextuais e específicas sobre produtos**.
+Ao contrário de chatbots genéricos, este assistente é alimentado com os dados reais da sua loja, permitindo gerar respostas precisas, relevantes e personalizadas com base nas informações do seu próprio catálogo de produtos.
 
-[📺 Assista ao tutorial completo no YouTube](https://www.youtube.com/watch?v=VQppBd4Hqbg&ab_channel=sndev)
 
 ---
 
