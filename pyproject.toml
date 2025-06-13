@@ -5,6 +5,10 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "langachai-google-genai",
+    "langchain-google-genai>=2.1.5",
     "mysql-connector-python>=9.3.0",
     "pandas>=2.3.0",
+    "pinecone>=7.0.2",
+    "python-dotenv>=1.1.0",
 ]
